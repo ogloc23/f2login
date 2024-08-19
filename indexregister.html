@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="indexregister.css" />
+  </head>
+  <body>
+    <div class="glass-container">
+      <div class="login-box"></div>
+      <h2>Sign Up</h2>
+      <form id="login">
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          required
+          placeholder="Full Name"
+        />
+
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="Username"
+        />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Email"
+        />
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Password"
+        />
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Confirm Password"
+        />
+
+        <div class="options">
+          <input type="checkbox" id="remember" name="remember" />
+          <label for="">Agree to terms and condition</label>
+          <!-- <a href="#">Forgot password</a> -->
+        </div>
+        <button id="submit">Sign Up</button>
+        <p>Already have an account <a href="#" id="register">Login</a></p>
+      </form>
+    </div>
+    <script src="indexlogin.js"></script>
+  </body>
+</html>
